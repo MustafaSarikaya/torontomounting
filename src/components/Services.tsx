@@ -5,27 +5,27 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const services = [
   {
-    icon: <Tv size={48} className="text-purple-600" />,
+    icon: <Tv size={48} className="text-brown-600" />,
     title: 'TV Mounting',
     description: 'Professional TV mounting for all sizes and types. Includes cable management and perfect placement.'
   },
   {
-    icon: <BookOpen size={48} className="text-purple-600" />,
+    icon: <BookOpen size={48} className="text-brown-600" />,
     title: 'Shelf Installation',
     description: 'Custom shelf mounting for any room. From floating shelves to complex wall units.'
   },
   {
-    icon: <Blinds size={48} className="text-purple-600" />,
+    icon: <Blinds size={48} className="text-brown-600" />,
     title: 'Blinds Installation',
     description: 'Expert installation of all types of blinds, shades, and window treatments.'
   },
   {
-    icon: <PictureInPicture size={48} className="text-purple-600" />,
+    icon: <PictureInPicture size={48} className="text-brown-600" />,
     title: 'Mirror Mounting',
     description: "Secure hanging of all mirror types, ensuring they're level and safely attached."
   },
   {
-    icon: <Image size={48} className="text-purple-600" />,
+    icon: <Image size={48} className="text-brown-600" />,
     title: 'Art & Picture Hanging',
     description: 'Professional art installation including single pieces or gallery walls.'
   }
@@ -36,7 +36,7 @@ const Services = () => {
     <section id="services" className="bg-gray-50 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-purple-900 mb-4">My Mounting Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-brown-900 mb-4">My Mounting Services</h2>
           <p className="text-gray-600 text-lg">
             Toronto's trusted mounting specialist providing expert installation services throughout the Greater Toronto Area.
           </p>
@@ -50,7 +50,7 @@ const Services = () => {
             >
               <CardHeader className="pb-2">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
-                <CardTitle className="text-xl font-semibold text-purple-900">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-semibold text-brown-900">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray-600 text-base">
