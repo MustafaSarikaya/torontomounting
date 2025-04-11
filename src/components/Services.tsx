@@ -22,7 +22,7 @@ const services = [
   {
     icon: <PictureInPicture size={48} className="text-orange" />,
     title: 'Mirror Mounting',
-    description: 'Secure hanging of all mirror types, ensuring they're level and safely attached.'
+    description: "Secure hanging of all mirror types, ensuring they're level and safely attached."
   },
   {
     icon: <Image size={48} className="text-orange" />,
