@@ -31,7 +31,7 @@ const About = () => {
     autoplaySpeed: 5000,
     pauseOnHover: true,
     arrows: true,
-    className: "gap-[50px]",
+    className: "gap-[10px] md:gap-[50px]",
   };
 
   return (
@@ -41,7 +41,7 @@ const About = () => {
           <div className="px-12">
             <Slider {...settings}>
               {images.map((image, index) => (
-                <div key={index} className="px-2">
+                <div key={index} className="px-1 md:px-2">
                   <div 
                     className="relative overflow-hidden rounded-2xl shadow-lg h-[200px] md:h-[400px]"
                     style={{ 
