@@ -5,27 +5,27 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 
 const services = [
   {
-    icon: <Tv size={48} className="text-brown-600" />,
+    icon: <Tv size={48} className="text-brown" />,
     title: 'TV Mounting',
     description: 'Professional TV mounting for all sizes and types. Includes cable management and perfect placement.'
   },
   {
-    icon: <BookOpen size={48} className="text-brown-600" />,
+    icon: <BookOpen size={48} className="text-brown" />,
     title: 'Shelf Installation',
     description: 'Custom shelf mounting for any room. From floating shelves to complex wall units.'
   },
   {
-    icon: <Blinds size={48} className="text-brown-600" />,
+    icon: <Blinds size={48} className="text-brown" />,
     title: 'Blinds Installation',
     description: 'Expert installation of all types of blinds, shades, and window treatments.'
   },
   {
-    icon: <PictureInPicture size={48} className="text-brown-600" />,
+    icon: <PictureInPicture size={48} className="text-brown" />,
     title: 'Mirror Mounting',
     description: "Secure hanging of all mirror types, ensuring they're level and safely attached."
   },
   {
-    icon: <Image size={48} className="text-brown-600" />,
+    icon: <Image size={48} className="text-brown" />,
     title: 'Art & Picture Hanging',
     description: 'Professional art installation including single pieces or gallery walls.'
   }
@@ -37,7 +37,7 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-brown-900 mb-4">My Mounting Services</h2>
-          <p className="text-gray-600 text-lg">
+          <p className="text-gray text-lg">
             Toronto's trusted mounting specialist providing expert installation services throughout the Greater Toronto Area.
           </p>
         </div>
@@ -53,7 +53,7 @@ const Services = () => {
                 <CardTitle className="text-xl font-semibold text-brown-900">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-gray-600 text-base">
+                <CardDescription className="text-gray text-base">
                   {service.description}
                 </CardDescription>
               </CardContent>
