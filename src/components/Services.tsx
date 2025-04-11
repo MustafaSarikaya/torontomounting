@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Tv, Shelf, Blinds, Image, PictureInPicture } from 'lucide-react';
+import { Tv, BookOpen, Blinds, Image, PictureInPicture } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const services = [
@@ -10,7 +10,7 @@ const services = [
     description: 'Professional TV mounting for all sizes and types. Includes cable management and perfect placement.'
   },
   {
-    icon: <Shelf size={48} className="text-orange" />,
+    icon: <BookOpen size={48} className="text-orange" />,
     title: 'Shelf Installation',
     description: 'Custom shelf mounting for any room. From floating shelves to complex wall units.'
   },
