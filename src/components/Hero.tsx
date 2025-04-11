@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -11,7 +10,7 @@ const Hero = () => {
             <div className="flex items-center mb-6">
               <div className="h-16 w-16 md:h-20 md:w-20 rounded-full overflow-hidden border-2 border-white mr-4">
                 <img 
-                  src="/lovable-uploads/b0427c6e-1e3b-44f1-aefe-53b3be42a133.png" 
+                  src="lovable-uploads/b0427c6e-1e3b-44f1-aefe-53b3be42a133.png" 
                   alt="Yusuf T." 
                   className="w-full h-full object-cover"
                 />
@@ -46,7 +45,7 @@ const Hero = () => {
               <div className="absolute -left-6 -top-6 h-32 w-32 bg-white/10 rounded-full blur-2xl"></div>
               <div className="absolute -right-6 -bottom-6 h-32 w-32 bg-white/10 rounded-full blur-2xl"></div>
               <img 
-                src="/lovable-uploads/5c73e655-0c2d-48ce-93dc-5335527eb3f7.png" 
+                src="lovable-uploads/5c73e655-0c2d-48ce-93dc-5335527eb3f7.png" 
                 alt="Yusuf T. - Toronto Mount Master" 
                 className="rounded-lg shadow-xl max-w-full h-auto object-cover relative z-10"
               />

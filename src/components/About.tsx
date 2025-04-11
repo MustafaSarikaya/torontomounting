@@ -16,9 +16,9 @@ const benefits = [
 
 const About = () => {
   const images = [
-    '/lovable-uploads/bike-hang.jpeg',
-    '/lovable-uploads/tv-mount.jpeg',
-    '/lovable-uploads/5c73e655-0c2d-48ce-93dc-5335527eb3f7.png'
+    'lovable-uploads/bike-hang.jpeg',
+    'lovable-uploads/tv-mount.jpeg',
+    'lovable-uploads/5c73e655-0c2d-48ce-93dc-5335527eb3f7.png'
   ];
 
   const settings = {
