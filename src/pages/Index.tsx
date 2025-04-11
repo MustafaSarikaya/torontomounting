@@ -2,6 +2,7 @@
 import React from 'react';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import QuoteForm from '@/components/QuoteForm';
 import Services from '@/components/Services';
 import About from '@/components/About';
 import Testimonials from '@/components/Testimonials';
@@ -14,6 +15,7 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <QuoteForm />
         <Services />
         <About />
         <Testimonials />
