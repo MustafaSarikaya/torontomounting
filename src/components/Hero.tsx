@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="hero-gradient text-white relative pb-40 md:pb-48 lg:pb-32">
+    <section className="bg-brown text-white relative pb-40 md:pb-48 lg:pb-32">
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-28">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
