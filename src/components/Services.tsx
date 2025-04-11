@@ -36,7 +36,7 @@ const Services = () => {
     <section id="services" className="bg-gray-50 py-16 md:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-brown-900 mb-4">My Mounting Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-brown mb-4">My Mounting Services</h2>
           <p className="text-gray text-lg">
             Toronto's trusted mounting specialist providing expert installation services throughout the Greater Toronto Area.
           </p>
@@ -50,7 +50,7 @@ const Services = () => {
             >
               <CardHeader className="pb-2">
                 <div className="mb-4 transform group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
-                <CardTitle className="text-xl font-semibold text-brown-900">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-semibold text-brown">{service.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-gray text-base">

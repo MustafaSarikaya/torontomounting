@@ -1,0 +1,41 @@
+/* Custom styles for react-slick carousel */
+.slick-slide {
+  padding: 0 25px;  /* Creates 50px gap between slides */
+}
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 50%;
+  z-index: 10;
+  transition: all 0.2s;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.slick-prev {
+  left: -20px !important;
+}
+
+.slick-next {
+  right: -20px !important;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #d1d5db;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f97316; /* orange color */
+}
